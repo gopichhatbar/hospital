@@ -19,7 +19,7 @@ app.use(bodyParser.json());
 
 const PORT = process.env.PORT || 5000;
 
-db.sequelize.sync({ force: true }) // ⛔️ Only temporarily! This drops and recreates tables
+db.sequelize.sync({ force: false }) // ⛔️ Only temporarily! This drops and recreates tables
   .then(() => {
     console.log("✅ Database synced with { force: true }");
     // Start the server after syncing
