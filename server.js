@@ -2,7 +2,7 @@ import express from "express";
 import cors from "cors";
 import bodyParser from "body-parser";
 import dotenv from "dotenv";
-import db from './models'; // This loads models/index.js
+import db from './models/index.js'; // Correct
 
 dotenv.config();
 
