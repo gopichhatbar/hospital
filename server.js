@@ -9,7 +9,6 @@ const medicineRoutes = require("./api/medicine")
 const patientRoutes = require("./api/patientroute"); // ✅ Import Routes
 const specificRoute = require("./api/specificPatient")
 const authenticate = require("./api/authentication")
-const sendprescription = require("./api/sendPrescriptionEmail")
 
 const app = express();
 app.use(cors());
@@ -24,6 +23,5 @@ app.use("/patients",patientRoutes);
 app.use("/medicine",medicineRoutes);
 app.use("/patients",specificRoute);
 app.use("/auth",authenticate);
-app.use("/",sendprescription);
 
 app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
