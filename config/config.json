@@ -1,23 +1,23 @@
 {
   "development": {
-    "username": "root",
-    "password": null,
-    "database": "clinic_database",
-    "host": "127.0.0.1",
+    "username": "sql12774695",
+    "password": "perdlj4eeN",
+    "database": "sql12774695",
+    "host": "sql12.freesqldatabase.com",
     "dialect": "mysql"
   },
   "test": {
-    "username": "root",
-    "password": null,
-    "database": "clinic_database",
-    "host": "127.0.0.1",
+    "username": "sql12774695",
+    "password":"perdlj4eeN",
+    "database": "sql12774695",
+    "host": "sql12.freesqldatabase.com",
     "dialect": "mysql"
   },
   "production": {
-    "username": "root",
-    "password": null,
-    "database": "clinic_database",
-    "host": "127.0.0.1",
+    "username": "sql12774695",
+    "password": "perdlj4eeN",
+    "database": "sql12774695",
+    "host": "sql12.freesqldatabase.com",
     "dialect": "mysql"
   }
 }
