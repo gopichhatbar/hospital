@@ -6,10 +6,10 @@ import db from './models/index.js'; // Correct import for models
 
 dotenv.config();
 
-import "./config/database.js"; // Make sure to add .js extension
-import medicineRoutes from "./api/medicine.js"; // Ensure file extensions
-import patientRoutes from "./api/patientroute.js"; // Ensure file extensions
-import specificRoute from "./api/specificPatient.js"; // Ensure file extensions
+import "./config/database.js"; // Ensure to include .js extension
+import medicineRoutes from "./api/medicine.js"; // Ensure to include .js extension
+import patientRoutes from "./api/patientroute.js"; // Ensure to include .js extension
+import specificRoute from "./api/specificPatient.js"; // Ensure to include .js extension
 import authenticate from "./api/authentication.js"; // Correct import for default export
 // import sendprescription from "./api/sendPrescriptionEmail.js"; // Uncomment if needed
 
